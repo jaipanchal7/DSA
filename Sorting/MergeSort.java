@@ -2,6 +2,10 @@ import java.util.*;
 
 public class MergeSort {
     public static void main(String[] args) {
+        // merge sort = recursively divide array in 2, sort, re-combine
+    	// run-time complexity = O(nLog(n))
+    	// space complexity    = O(n)
+
         int[] arr = {5,4,3,2,1,8,7};
         int l = 0;
         int h = arr.length-1;

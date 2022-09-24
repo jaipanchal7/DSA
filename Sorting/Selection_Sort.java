@@ -2,7 +2,14 @@ import java.util.*;
 
 public class Selection_Sort {
     public static void main(String[] args) {
-        int[] arr = {8, 5, 3, 37, 4, 98, 1, 2};
+        // selection sort = search through an array and keep track of the minimum value during 
+	    //			        each iteration. At the end of each iteration, we swap values.
+	
+        //				 Quadratic time O(n^2)
+        //				 small data set = okay
+        //				 large data set = BAD
+
+        int[] arr = {8,5,3,37,4,98,1,2};
         selection(arr);
         System.out.println(Arrays.toString(arr));
     }
