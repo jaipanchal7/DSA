@@ -5,9 +5,9 @@ public class BubbleSort {
         // bubble sort = pairs of adjacent elements are compared, and the elements
         //               swapped if they are not in order.		         
 	
-	    //				 Quadratic time O(n^2)
-	    //				 small data set = okay-ish
-	    //				 large data set = BAD (plz don't use this..)
+        // Quadratic time O(n^2)
+        // small data set = okay-ish
+        // large data set = BAD (plz don't use this..)
 
         int[] arr = {5,3,4,1,2};
         bubble(arr);
