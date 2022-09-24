@@ -3,7 +3,7 @@ import java.util.*;
 public class BubbleSort {
     public static void main(String[] args) {
         // bubble sort = pairs of adjacent elements are compared, and the elements
-	    //		         swapped if they are not in order.
+        //               swapped if they are not in order.		         
 	
 	    //				 Quadratic time O(n^2)
 	    //				 small data set = okay-ish
