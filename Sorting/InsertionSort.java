@@ -2,7 +2,7 @@ import java.util.*;
 
 public class InsertionSort {
     public static void main(String[] args) {
-        // Insertion sort = after comparing elements to the left,
+        // Insertion sort = after comparing elements to the left
 	    // shift elements to the right to make room to insert a value
 
         // Quadratic time O(n^2)
