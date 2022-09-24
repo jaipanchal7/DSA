@@ -3,7 +3,7 @@ import java.util.*;
 public class QuickSort {
     public static void main(String[] args) {
         // quick sort = moves smaller elements to left of a pivot.
-        //			    recursively divide array in 2 partitions
+        // recursively divide array in 2 partitions
 
         //  run-time complexity = Best case O(nlog(n))
         //  Average case O(n log(n))
