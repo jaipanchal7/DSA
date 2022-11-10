@@ -2,7 +2,7 @@ package com.jai.Basic_Programs;
 
 import java.util.Arrays;
 
-public class AddString {
+public class Remove_Duplicate_Characters {
     public static void main(String[] args) {
 
         String s = "cbacdcbc";
